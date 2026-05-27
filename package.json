@@ -1,0 +1,14 @@
+{
+  "name": "context-sync",
+  "version": "1.0.0",
+  "description": "ContextSync — Never let AI forget your project again. Automated project context synchronization.",
+  "bin": {
+    "context-sync": "./install.sh"
+  },
+  "scripts": {
+    "install-skills": "bash install.sh",
+    "validate": "node validate.js"
+  },
+  "keywords": ["claude-code", "skills", "context", "conventions", "code-style", "ai-coding", "project-sync"],
+  "license": "BSD-3-Clause"
+}
