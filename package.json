@@ -1,14 +1,30 @@
 {
-  "name": "context-sync",
+  "name": "context-sync-ai",
   "version": "1.0.0",
-  "description": "ContextSync — Never let AI forget your project again. Automated project context synchronization.",
-  "bin": {
-    "context-sync": "./install.sh"
+  "description": "ContextSync — Never let AI forget your project again. Automated project context synchronization with 3 skills.",
+  "author": "charlotte-12s",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlotte-12s/context-sync.git"
   },
+  "homepage": "https://github.com/charlotte-12s/context-sync#readme",
+  "bugs": {
+    "url": "https://github.com/charlotte-12s/context-sync/issues"
+  },
+  "bin": {
+    "context-sync-ai": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "install.sh",
+    "CLAUDE.md",
+    "skills/",
+    "validate.js"
+  ],
   "scripts": {
-    "install-skills": "bash install.sh",
+    "install-skills": "node cli.js",
     "validate": "node validate.js"
   },
-  "keywords": ["claude-code", "skills", "context", "conventions", "code-style", "ai-coding", "project-sync"],
-  "license": "BSD-3-Clause"
+  "keywords": ["claude-code", "skills", "context", "conventions", "code-style", "ai-coding", "project-sync"]
 }
