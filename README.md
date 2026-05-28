@@ -4,6 +4,8 @@
 
 **8 rules and 3 skills that make AI respect your project conventions**
 
+> 🌟 If ContextSync saves you from AI chaos, please consider giving it a star!
+
 [![npm version](https://img.shields.io/npm/v/context-sync-ai.svg)](https://www.npmjs.com/package/context-sync-ai)
 [![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![GitHub Stars](https://img.shields.io/github/stars/charlotte-12s/context-sync?style=social)](https://github.com/charlotte-12s/context-sync/stargazers)
@@ -201,6 +203,12 @@ Contributions are welcome! Areas of particular interest:
 - Improvements to the install script for more tools
 
 Please read the existing skill structure before submitting PRs.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=charlotte-12s/context-sync&type=Date)](https://star-history.com/#charlotte-12s/context-sync&type=Date)
 
 ---
 
