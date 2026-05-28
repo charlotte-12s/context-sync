@@ -4,6 +4,7 @@
 
 **8 rules and 3 skills that make AI respect your project conventions**
 
+[![npm version](https://img.shields.io/npm/v/context-sync-ai.svg)](https://www.npmjs.com/package/context-sync-ai)
 [![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![GitHub Stars](https://img.shields.io/github/stars/charlotte-12s/context-sync?style=social)](https://github.com/charlotte-12s/context-sync/stargazers)
 [![CI](https://github.com/charlotte-12s/context-sync/actions/workflows/validate.yml/badge.svg)](https://github.com/charlotte-12s/context-sync/actions/workflows/validate.yml)
@@ -11,7 +12,7 @@
 **Never let AI forget your project again.**
 
 ```bash
-npx context-sync
+npx context-sync-ai
 ```
 
 [Getting Started](#-quick-start) · [The 8 Rules](#-the-8-context-first-rules) · [The 3 Skills](#-the-3-skills) · [Supported Tools](#supported-tools)
@@ -40,7 +41,7 @@ Every AI coding assistant does this:
 
 ```bash
 # Install with npx (recommended)
-npx context-sync
+npx context-sync-ai
 
 # Or with curl
 curl -fsSL https://raw.githubusercontent.com/charlotte-12s/context-sync/main/install.sh | bash
@@ -48,13 +49,13 @@ curl -fsSL https://raw.githubusercontent.com/charlotte-12s/context-sync/main/ins
 
 ```bash
 # Install only the scanner
-npx context-sync --bundle scan-only
+npx context-sync-ai --bundle scan-only
 
 # Install only the enforcer
-npx context-sync --bundle enforce-only
+npx context-sync-ai --bundle enforce-only
 
 # Install for a specific tool
-npx context-sync --tool cursor --tool codex --tool gemini
+npx context-sync-ai --tool cursor --tool codex --tool gemini
 ```
 
 ---
@@ -200,6 +201,13 @@ Contributions are welcome! Areas of particular interest:
 - Improvements to the install script for more tools
 
 Please read the existing skill structure before submitting PRs.
+
+---
+
+## More Tools for AI Developers
+
+- 🎓 [PaperCraft](https://github.com/charlotte-12s/paper-craft) — 17 rules + 12 skills for CS research (idea → accepted paper)
+- 🤖 [ML Playbook](https://github.com/charlotte-12s/ml-playbook) — 12 rules + 4 skills for ML engineering (baseline → production)
 
 ---
 
